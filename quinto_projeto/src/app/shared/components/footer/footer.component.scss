@@ -1,0 +1,25 @@
+.footer-container {
+ 
+    left: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* altura do footer */
+    background-color:  #634fa0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  /* Define o estilo do texto no footer */
+  .footer-content p {
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .footer-content p {
+      margin-top: 10px;
+    }
+  }

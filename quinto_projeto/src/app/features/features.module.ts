@@ -12,6 +12,10 @@ import { LivrosComponent } from './components/livros/livros.component';
   ],
   imports: [
     CommonModule
+  ], 
+  exports:[
+    LivrosComponent,
+    CardsComponent
   ]
 })
 export class FeaturesModule { }
