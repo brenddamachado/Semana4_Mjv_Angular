@@ -1,20 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardsComponent } from './components/cards/cards.component';
-import { LivrosComponent } from './components/livros/livros.component';
-
 
 
 @NgModule({
   declarations: [
-    CardsComponent,
-    LivrosComponent
+    CardsComponent
   ],
   imports: [
     CommonModule
   ], 
   exports:[
-    LivrosComponent,
+
     CardsComponent
   ]
 })
