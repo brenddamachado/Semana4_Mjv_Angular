@@ -1,64 +1,65 @@
 .cabecalho {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #634fa0;
-    color: white;
-    font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #634fa0;
+  display: flex;
+  align-items: center;
+  color: white;
+
+  .logo {
+    width: 100%;
   }
-  
-  .pix {
-    font-size: 20px;
-    font-family: Raleway, sans-serif;
-    text-transform: none;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-    background-color: #f2f2f2;
-  }
-  
-  .navbar {
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-left: 100px;
-  }
-  
-  ul {
-    display: flex;
-    flex-direction: row;
-    justify-self: flex-end;
-    list-style: none;
-    align-items: center;
-  }
-  
-  li {
-    padding: 20px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #fff;
-    margin-left: 250px;
-  }
-  
-  /* Media query for screens up to 575px */
-  
-  @media screen and (max-width: 575px) {
-    .navbar {
-      margin-left: 0;
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      justify-content: flex-end;
+
+      li {
+
+        a {
+          color: white;
+          text-decoration: none;
+          margin-right: 100px;
+
+
+        }
+      }
+
     }
-    
-    a {
-      margin-left: 0;
-    }
-    
-    li {
-      padding: 10px;
-    }
+
   }
+
+}
+
+@media (max-width: 768px) {
+  .cabecalho {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav li {
+    margin: 0;
+  }
+}
