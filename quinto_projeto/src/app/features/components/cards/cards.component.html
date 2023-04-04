@@ -2,7 +2,8 @@
   <h1>{{ titulo }}</h1>
 
   <div class="card-contain" *ngFor="let prod of produtos">
-    <h2 class="produto-nome">
+    <div class="card">
+          <h2 class="produto-nome">
       {{ prod.nome }}
     </h2>
 
@@ -21,6 +22,8 @@
 
       <h5 *ngIf="exibeProdutos">{{ prod.sinopse }}</h5>
       <button (click)="exibeprodutosim()">exibe produto</button>
+    </div>
+
     </div>
   </div>
 </main>
