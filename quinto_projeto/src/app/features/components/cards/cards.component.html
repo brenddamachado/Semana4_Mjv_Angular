@@ -1,1 +1,26 @@
+<main class="cards">
+  <h1>{{ titulo }}</h1>
 
+  <div class="card-contain" *ngFor="let prod of produtos">
+    <h2 class="produto-nome">
+      {{ prod.nome }}
+    </h2>
+
+    <div class="info">
+      <div class="img">
+        <img src="{{ prod.imagem }}" alt="" />
+      </div>
+      <p class="preco">
+        {{
+          prod.preco.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+          })
+        }}
+      </p>
+
+      <h5 *ngIf="exibeProdutos">{{ prod.sinopse }}</h5>
+      <button (click)="exibeprodutosim()">exibe produto</button>
+    </div>
+  </div>
+</main>
