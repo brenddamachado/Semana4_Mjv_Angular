@@ -1,5 +1,6 @@
+<div class="tt"><h1>{{ titulo }}</h1></div>
 <main class="cards">
-  <h1>{{ titulo }}</h1>
+  
 
   <div class="card-contain" *ngFor="let prod of produtos">
     <div class="card">
@@ -20,10 +21,13 @@
         }}
       </p>
 
-      <h5 *ngIf="exibeProdutos">{{ prod.sinopse }}</h5>
-      <button (click)="exibeprodutosim()">exibe produto</button>
+      <h4 *ngIf="exibeProdutos">{{ prod.sinopse }}</h4>
+      <button (click)="exibeprodutosim()">Sinopse</button>
+      <button class="adq">Comprar</button>
     </div>
 
     </div>
   </div>
 </main>
+
+ 
