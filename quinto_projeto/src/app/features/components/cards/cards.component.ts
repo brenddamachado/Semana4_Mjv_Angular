@@ -12,36 +12,36 @@ titulo = "Novidades";
 exibeProdutos = false;
 
 produtos: Array<card> =[
-  {nome: "codigo",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9JbWkre6l4qrZhYdoSw9jrJLGxQ9S9HC6PRXs-Zg&s",
+  {
+    imagem: "https://m.media-amazon.com/images/I/517I6z9QK4L._SY344_BO1,204,203,200_QL70_ML2_.jpg",
     sinopse: "kkwkwwkwk",
     preco : 4000},
-    {nome: "codigo",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9JbWkre6l4qrZhYdoSw9jrJLGxQ9S9HC6PRXs-Zg&s",
+    {
+    imagem: "https://m.media-amazon.com/images/I/41qeEtBu02L._SY344_BO1,204,203,200_QL70_ML2_.jpg",
     sinopse: "kkwkwwkwk",
     preco : 4000},
-    {nome: "codigo",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9JbWkre6l4qrZhYdoSw9jrJLGxQ9S9HC6PRXs-Zg&s",
+    {
+    imagem: "",
     sinopse: "kkwkwwkwk",
     preco : 4000},
-    {nome: "codigo",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9JbWkre6l4qrZhYdoSw9jrJLGxQ9S9HC6PRXs-Zg&s",
+    {
+    imagem: "",
     sinopse: "kkwkwwkwk",
     preco : 4000},
-    {nome: "codigo",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9JbWkre6l4qrZhYdoSw9jrJLGxQ9S9HC6PRXs-Zg&s",
+    {
+    imagem: "",
     sinopse: "kkwkwwkwk",
     preco : 4000},
-    {nome: "codigo",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9JbWkre6l4qrZhYdoSw9jrJLGxQ9S9HC6PRXs-Zg&s",
+    {
+    imagem: "",
     sinopse: "kkwkwwkwk",
     preco : 4000},
-    {nome: "codigo",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9JbWkre6l4qrZhYdoSw9jrJLGxQ9S9HC6PRXs-Zg&s",
+    {
+    imagem: "",
     sinopse: "kkwkwwkwk",
     preco : 4000},
-    {nome: "codigo",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9JbWkre6l4qrZhYdoSw9jrJLGxQ9S9HC6PRXs-Zg&s",
+    {
+    imagem: "",
     sinopse: "kkwkwwkwk",
     preco : 4000}
   ]
