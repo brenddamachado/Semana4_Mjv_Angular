@@ -23,8 +23,21 @@
     padding: 20px;
   }
   
-  @media screen and (max-width: 575px) {
-    .footer-content p {
-      margin-top: 10px;
-    }
+
+
+@media only screen and (max-width: 480px) {
+  .footer-container {
+    height: auto;
+    position: relative;
   }
+  
+  .footer-content p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
