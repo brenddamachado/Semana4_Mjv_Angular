@@ -1,12 +1,12 @@
 <div class="tt"><h1>{{ titulo }}</h1></div>
-<main class="cards">
+<main class="cards"  >
   
 
   <div class="card-contain" *ngFor="let prod of produtos">
    
 
     <div class="info">
-      <div class="img">
+      <p [ngClass]="{'estoque': prod.disponivel, 'esgotado': !prod.disponivel}">{{prod.disponivel ? "Disponivel" : "Esgotado"}}</p> <div class="img">
         <img src="{{ prod.imagem }}" alt="" />
       </div>
       <p class="preco">
@@ -21,6 +21,7 @@
       <p class="exibir" *ngIf="exibeProdutos">{{ prod.sinopse }}</p>
       <button class="bnt" (click)="exibeprodutosim()">Sinopse</button>
       <button class="adq">Carrinho</button>
+     
     </div>
 
     
