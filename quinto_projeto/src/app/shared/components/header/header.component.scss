@@ -1,10 +1,10 @@
-.cabecalho {
+  .cabecalho {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
-  background-color: #634fa0;
+  background-color: #D9CB04;
   display: flex;
   align-items: center;
   color: white;
@@ -30,6 +30,7 @@
           color: white;
           text-decoration: none;
           margin-right: 100px;
+          font-size: 20px;
 
 
         }

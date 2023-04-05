@@ -18,7 +18,7 @@
         }}
       </p>
 
-      <h4 *ngIf="exibeProdutos">{{ prod.sinopse }}</h4>
+      <p class="exibir" *ngIf="exibeProdutos">{{ prod.sinopse }}</p>
       <button class="bnt" (click)="exibeprodutosim()">Sinopse</button>
       <button class="adq">Carrinho</button>
     </div>
